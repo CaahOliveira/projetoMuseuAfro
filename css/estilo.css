@@ -1,0 +1,65 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px 0;
+    z-index: 1000;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+nav a {
+    background-color: #333;
+}
+nav a:hover {
+    background-color: #555;
+}
+section {
+    padding: 80px 20px;
+    min-height: 100vh;
+}
+#home {
+    background-color: #e4d7c6;
+}
+#exposicao {
+    background-color: #c5a680;
+}
+#galeria {
+    background-color: #a7855d;
+}
+#eventos {
+    background-color: #6b5430;
+}
+#contato {
+    background-color: #403723;
+}
+h2 {
+    text-align: center;
+    color: #477A40;
+    margin-top: 0;
+}
+.container-imagens {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.container-imagens img {
+    width: 200px;
+    height: auto;
+}
+#container-rodape {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
